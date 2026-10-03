@@ -1,16 +1,4 @@
 return {
-  -- Statusline: flat separators
-  {
-    "nvim-lualine/lualine.nvim",
-    opts = function(_, opts)
-      local ok, theme = pcall(require, "neofusion.lualine")
-      if ok then
-        opts.options.theme = theme
-      end
-      opts.options.component_separators = { left = "", right = "" }
-      opts.options.section_separators = { left = "", right = "" }
-    end,
-  },
 
   -- Tabs: thicker separators
   {

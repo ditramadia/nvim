@@ -2,16 +2,13 @@
 
 <div align="center">
 
-
 <h1 align="center">The Best Neovim Config</h1>
-
 
 <p align="center">
 
 [![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)](https://www.lua.org/)
 
 </p>
-
 
 </div>
 
@@ -36,10 +33,9 @@ This repo exists for two reasons:
 
 ### Looks
 
-- **[neofusion](https://github.com/diegoulloao/neofusion.nvim)** colorscheme with **transparent background**.
+- **[kanagawa](https://github.com/rebelot/kanagawa.nvim)** colorscheme with **transparent background**.
 - **Custom ASCII art dashboard** via `snacks.nvim`. It's huge, padded by 8 lines. It serves no functional purpose. It is the most important file in this repo.
 - **Rounded borders everywhere** (windows, completion menu, docs popups, floating terminal).
-- **Lualine** wearing neofusion's own theme with flat separators.
 - **Bufferline** with **thicc** separators.
 - **Smear cursor** and **mini.animate**.
 - **Treesitter context**.
@@ -128,7 +124,7 @@ Then run `:checkhealth` and fix whatever it yells about.
     │   ├── lazy.lua         # lazy.nvim bootstrap
     │   └── options.lua      # 4-space indent, rounded borders
     └── plugins
-        ├── colorscheme.lua  # neofusion, transparent
+        ├── colorscheme.lua  # kanagawa, transparent
         ├── dashboard.lua    # The ASCII art. The crown jewel.
         ├── editor.lua       # nvim-surround
         ├── lang-*.lua       # Per-language tweaks (go, make, markdown, sql)
@@ -141,7 +137,7 @@ Then run `:checkhealth` and fix whatever it yells about.
 ## 🙏 Credits
 
 - [folke](https://github.com/folke), for LazyVim, lazy.nvim, snacks.nvim, and basically my entire personality as a Neovim user.
-- [diegoulloao](https://github.com/diegoulloao), for neofusion.
+- [rebelot](https://github.com/rebelot), for kanagawa.
 - Me.
 
 ## 📜 License
