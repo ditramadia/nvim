@@ -1,0 +1,22 @@
+# Neovim / Vim swap, undo, and backup files
+*.swp
+*.swo
+*.swn
+*~
+*.un~
+
+# Session & local state
+.netrwhist
+Session.vim
+.Session.vim
+
+# Local environment/secrets variables (e.g., API keys for Copilot/AI tools)
+.env
+.env.*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# LSP & Mason local server caches
+.mason/
